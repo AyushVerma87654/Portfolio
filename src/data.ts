@@ -137,3 +137,8 @@ export const skills: {
     info: "Schemas, Queries, pgAdmin",
   },
 ];
+
+export const fullIntroText =
+  "Hi, I’m Ayush Verma, a full-stack web developer skilled in React.js, Next.js, Tailwind CSS, Node.js (AdonisJS), and PostgreSQL. I enjoy building scalable, user-friendly applications and solving real-world problems through clean, efficient code. My favorite project, EasyKart, is a full-featured e-commerce platform I built from scratch with both frontend and backend. I'm always eager to learn new technologies and take on meaningful challenges.";
+export const compactIntroText =
+  "Hi, I’m Ayush Verma, a full-stack web developer skilled in React.js, Next.js, Tailwind CSS, Node.js (AdonisJS), and PostgreSQL. I enjoy building scalable, user-friendly applications and solving real-world problems. I'm always eager to learn new technologies and take on meaningful challenges.";

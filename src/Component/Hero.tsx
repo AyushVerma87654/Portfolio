@@ -8,6 +8,7 @@ import {
 import { useTypewriter } from "react-simple-typewriter";
 import profileImg from "/ayush.jpg";
 import { Link as ScrollLink } from "react-scroll";
+import { compactIntroText, fullIntroText } from "../data";
 
 export default function Hero() {
   const [text] = useTypewriter({
@@ -77,7 +78,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative min-h-screen flex flex-col justify-center items-center text-white text-center px-6
+      className="relative min-h-screen py-4 flex flex-col justify-center items-center text-white text-center px-6
       bg-gradient-to-r from-purple-500 to-blue-500 dark:from-gray-900 dark:to-gray-800 overflow-hidden"
     >
       {/* Floating blobs */}
@@ -121,6 +122,22 @@ export default function Hero() {
       >
         {text}
         <span className="blinking-cursor">|</span>
+      </motion.p>
+      <motion.p
+        className="hidden md:block bg-black/30 backdrop-blur-sm px-4 py-3 rounded-md"
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        {fullIntroText}
+      </motion.p>
+      <motion.p
+        className="mx-4 md:hidden"
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        {compactIntroText}
       </motion.p>
 
       {/* CTA button */}
