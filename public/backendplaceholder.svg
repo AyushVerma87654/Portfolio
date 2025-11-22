@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1b26"></stop>
+      <stop offset="100%" stop-color="#1e2030"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="350" fill="url(#bg)" rx="12"></rect>
+
+  <!-- Window top bar -->
+  <rect width="700" height="38" fill="#16161e"></rect>
+  <circle cx="24" cy="19" r="6" fill="#f7768e"></circle>
+  <circle cx="44" cy="19" r="6" fill="#e0af68"></circle>
+  <circle cx="64" cy="19" r="6" fill="#9ece6a"></circle>
+
+  <!-- Random clean backend-like code -->
+  <text x="40" y="80" font-family="Consolas, monospace" font-size="18" fill="#7aa2f7">
+    const <tspan fill="#bb9af7">hashValue</tspan> = await crypto
+  </text>
+  <text x="80" y="115" font-family="Consolas, monospace" font-size="18" fill="#7dcfff">
+    .subtle.digest
+  </text>
+  <text x="80" y="150" font-family="Consolas, monospace" font-size="18" fill="#c0caf5">
+    ('SHA-256', new TextEncoder().encode(data));
+  </text>
+  <text x="40" y="190" font-family="Consolas, monospace" font-size="18" fill="#c0caf5">
+    const token = Buffer
+  </text>
+  <text x="80" y="225" font-family="Consolas, monospace" font-size="18" fill="#9ece6a">
+    .from(hashValue)
+  </text>
+  <text x="80" y="260" font-family="Consolas, monospace" font-size="18" fill="#c0caf5">
+    .toString('<tspan fill="#bb9af7">hex</tspan>');
+  </text>
+  <text x="40" y="300" font-family="Consolas, monospace" font-size="18" fill="#7aa2f7">
+    export {'{'} token {'}'};
+  </text>
+</svg>

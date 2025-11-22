@@ -6,7 +6,6 @@ export default function Feedback() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  // Simple email validation regex
   const isValidEmail = (email: string) =>
     /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 

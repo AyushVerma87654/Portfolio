@@ -1,12 +1,54 @@
 export const projects = [
   {
-    title: "EasyKart",
+    title: "EasyKart - Frontend",
     description:
-      "Amazon-like UI with product listing, cart, and authentication.",
-    tech: ["React.js", "Redux", "Tailwind CSS"],
-    live: "https://ayushverma.netlify.app",
-    github: "https://github.com/AyushVerma87654/EasyKart",
+      "Frontend of a complete e-commerce application with authentication, product catalog, shopping cart, and Stripe-based payments.",
+    tech: ["React.js", "Redux Toolkit", "Tailwind CSS", "Supabase"],
+    live: "https://your-frontend-live-link.com", // Replace with actual link
+    github: "https://github.com/AyushVerma87654/EasyKart-Frontend",
     image: "/easykart.png",
+  },
+  {
+    title: "EasyKart - Backend",
+    description:
+      "Backend of the e-commerce app using AdonisJs with JWT auth, PostgreSQL database, and Stripe payment integration.",
+    tech: ["AdonisJs", "PostgreSQL", "Supabase", "Stripe"],
+    github: "https://github.com/AyushVerma87654/EasyKart-Backend",
+    image: "/backendplaceholder.svg",
+  },
+  {
+    title: "Online Learning Platform - Frontend",
+    description:
+      "Frontend of a full-stack e-learning system with role-based access, course creation, quizzes, subscription payments, and admin dashboard.",
+    tech: ["React.js", "Redux Toolkit", "Tailwind CSS", "Supabase"],
+    live: "https://your-frontend-live-link.com", // Replace with actual link
+    github: "https://github.com/AyushVerma87654/Online-Learning-Frontend",
+    image: "/online-learning.png",
+  },
+  {
+    title: "Online Learning Platform - Backend",
+    description:
+      "Backend of the e-learning platform using Express.js and Supabase for authentication, database management, and payment handling.",
+    tech: ["Express.js", "Supabase", "Stripe", "PostgreSQL"],
+    github: "https://github.com/AyushVerma87654/Online-Learning-Backend",
+    image: "/backendplaceholder.svg",
+  },
+  {
+    title: "Knowledge Vault - Frontend",
+    description:
+      "Frontend of an AI-powered document search system with semantic search, file uploads, and responsive React UI.",
+    tech: ["React.js", "Redux Toolkit", "Tailwind CSS", "Supabase"],
+    live: "https://your-frontend-live-link.com", // Replace with actual link
+    github: "https://github.com/AyushVerma87654/Knowledge-Vault-Frontend",
+    image: "/knowledge-vault.png",
+  },
+  {
+    title: "Knowledge Vault - Backend",
+    description:
+      "Backend using AdonisJs for text extraction, AI embeddings, and vector-based search stored in PostgreSQL.",
+    tech: ["AdonisJs", "PostgreSQL Vector DB", "Supabase", "AI Embeddings"],
+    github: "https://github.com/AyushVerma87654/Knowledge-Vault-Backend",
+    image: "/backendplaceholder.svg",
   },
   {
     title: "Ludo Game",
