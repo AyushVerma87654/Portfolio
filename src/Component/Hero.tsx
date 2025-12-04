@@ -14,8 +14,8 @@ export default function Hero() {
   const [text] = useTypewriter({
     words: [
       "Full Stack Developer",
-      "React.js | Redux | Tailwind CSS",
-      "AdonisJs | Node.js",
+      "React.js | Next.js | Redux Toolkit | Tailwind CSS",
+      "AdonisJs | Node.js | Express.js",
     ],
     loop: true,
     typeSpeed: 70,
@@ -33,7 +33,6 @@ export default function Hero() {
         leftBlob.start({
           x: [0, 20, -10, 0],
           y: [0, -20, 10, 0],
-          // scale: [1, 1.1, 0.95, 1],
           rotate: [0, 5, -5, 0],
           transition: {
             duration: 6,
@@ -44,7 +43,6 @@ export default function Hero() {
         rightBlob.start({
           x: [0, -20, 10, 0],
           y: [0, 20, -10, 0],
-          // scale: [1, 1.05, 0.95, 1],
           rotate: [0, -5, 5, 0],
           transition: {
             duration: 6,

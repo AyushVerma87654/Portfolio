@@ -14,11 +14,8 @@ export default function Feedback() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-
-    if (!isFormValid) return; // prevent empty submission
-
+    if (!isFormValid) return;
     const body = `Name: ${name} Email: ${email} Message:${message}`;
-
     window.location.href = `mailto:ayushverma030299@gmail.com?subject=Portfolio Feedback&body=${encodeURIComponent(
       body
     )}`;

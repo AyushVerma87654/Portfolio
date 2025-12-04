@@ -4,7 +4,7 @@ export const projects = [
     description:
       "Frontend of a complete e-commerce application with authentication, product catalog, shopping cart, and Stripe-based payments.",
     tech: ["React.js", "Redux Toolkit", "Tailwind CSS", "Supabase"],
-    live: "https://your-frontend-live-link.com", // Replace with actual link
+    live: "https://ayushverma.netlify.app/",
     github: "https://github.com/AyushVerma87654/EasyKart-Frontend",
     image: "/easykart.png",
   },
@@ -21,7 +21,7 @@ export const projects = [
     description:
       "Frontend of a full-stack e-learning system with role-based access, course creation, quizzes, subscription payments, and admin dashboard.",
     tech: ["React.js", "Redux Toolkit", "Tailwind CSS", "Supabase"],
-    live: "https://your-frontend-live-link.com", // Replace with actual link
+    live: "https://online-learning-platform-frontend.netlify.app/",
     github: "https://github.com/AyushVerma87654/Online-Learning-Frontend",
     image: "/online-learning.png",
   },
@@ -38,7 +38,7 @@ export const projects = [
     description:
       "Frontend of an AI-powered document search system with semantic search, file uploads, and responsive React UI.",
     tech: ["React.js", "Redux Toolkit", "Tailwind CSS", "Supabase"],
-    live: "https://your-frontend-live-link.com", // Replace with actual link
+    live: "https://knowledge-vault-frontend.netlify.app/",
     github: "https://github.com/AyushVerma87654/Knowledge-Vault-Frontend",
     image: "/knowledge-vault.png",
   },
