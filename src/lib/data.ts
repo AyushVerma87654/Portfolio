@@ -13,8 +13,8 @@ export const projects = [
       "JWT",
       "REST API",
     ],
-    live: "https://your-cms-admin-portal.netlify.app",
-    github: "https://github.com/AyushVerma87654/Portfolio-CMS-Admin",
+    live: "https://portfolio-cms-admin-portal.netlify.app/",
+    github: "https://github.com/AyushVerma87654/Portfolio-CMS-Admin-Portal",
     image: "/cms-admin.png",
   },
   {
@@ -29,7 +29,7 @@ export const projects = [
       "Tailwind CSS",
       "REST API",
     ],
-    live: "https://your-cms-frontend.netlify.app",
+    live: "https://portfolio-cms-frontend.netlify.app/",
     github: "https://github.com/AyushVerma87654/Portfolio-CMS-Frontend",
     image: "/cms-frontend.png",
   },
@@ -105,8 +105,8 @@ export const projects = [
     description:
       "Frontend of a full-stack API Testing Tool with request form, history, collections, and response viewer.",
     tech: ["React.js", "Tailwind CSS", "Supabase", "Axios"],
-    live: "https://your-api-tool-frontend.netlify.app",
-    github: "https://github.com/AyushVerma87654/API-Testing-Frontend",
+    live: "https://api-testing-tool.netlify.app/",
+    github: "https://github.com/AyushVerma87654/API-Testing-Tool-Frontend",
     image: "/api-tool.png",
   },
   {
@@ -114,7 +114,7 @@ export const projects = [
     description:
       "Backend for API Testing Tool with proxy endpoints, user authentication, request history, and collections storage.",
     tech: ["Node.js", "Express.js", "Supabase", "JWT"],
-    github: "https://github.com/AyushVerma87654/API-Testing-Backend",
+    github: "https://github.com/AyushVerma87654/API-Testing-Tool-Backend",
     image: "/backendplaceholder.svg",
   },
 

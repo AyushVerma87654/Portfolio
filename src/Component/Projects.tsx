@@ -53,20 +53,22 @@ export default function Projects() {
                 ))}
               </div>
 
-              <div className="flex flex-wrap sm:flex-nowrap gap-2">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={() => window.open(project.live, "_blank")}
-                  className="flex-1"
-                >
-                  Live
-                </Button>
+              <div className="flex flex-wrap sm:flex-nowrap gap-4">
+                {project.live && (
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => window.open(project.live, "_blank")}
+                    className="flex-1 cursor-pointer"
+                  >
+                    Live
+                  </Button>
+                )}
                 <Button
                   variant="outline"
                   size="sm"
                   onClick={() => window.open(project.github, "_blank")}
-                  className="flex-1"
+                  className="flex-1 cursor-pointer"
                 >
                   GitHub
                 </Button>
