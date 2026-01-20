@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { skills } from "../data";
+import { skills } from "../lib/data";
 
 export default function Skills() {
   return (

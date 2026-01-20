@@ -8,7 +8,7 @@ import {
 import { useTypewriter } from "react-simple-typewriter";
 import profileImg from "/ayush.jpg";
 import { Link as ScrollLink } from "react-scroll";
-import { compactIntroText, fullIntroText } from "../data";
+import { compactIntroText, fullIntroText } from "../lib/data";
 
 export default function Hero() {
   const [text] = useTypewriter({

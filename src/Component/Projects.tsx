@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "./Button";
-import { projects } from "../data";
+import { projects } from "../lib/data";
 
 export default function Projects() {
   return (

@@ -1,12 +1,19 @@
-import { Github, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import { RiGithubLine } from "react-icons/ri";
+import { LuLinkedin } from "react-icons/lu";
+import { IoMailUnreadOutline } from "react-icons/io5";
+import { FaPhoneAlt } from "react-icons/fa";
+import { RiMapPinUserFill } from "react-icons/ri";
 
 const contacts = [
-  { icon: <Github />, link: "https://github.com/AyushVerma87654" },
-  { icon: <Linkedin />, link: "https://linkedin.com/in/ayush-verma-developer" },
-  { icon: <Mail />, link: "mailto:ayushverma030299@gmail.com" },
-  { icon: <Phone />, link: "tel:+917017560413" },
+  { icon: <RiGithubLine />, link: "https://github.com/AyushVerma87654" },
   {
-    icon: <MapPin />,
+    icon: <LuLinkedin />,
+    link: "https://linkedin.com/in/ayush-verma-developer",
+  },
+  { icon: <IoMailUnreadOutline />, link: "mailto:ayushverma030299@gmail.com" },
+  { icon: <FaPhoneAlt />, link: "tel:+917017560413" },
+  {
+    icon: <RiMapPinUserFill />,
     link: "https://www.google.com/maps/place/Dehradun,+India",
   },
 ];

@@ -1,38 +1,48 @@
 export const projects = [
+  // CMS Projects
   {
-    title: "EasyKart - Frontend",
+    title: "Portfolio CMS - Admin Portal",
     description:
-      "Frontend of a complete e-commerce application with authentication, product catalog, shopping cart, and Stripe-based payments.",
-    tech: ["React.js", "Redux Toolkit", "Tailwind CSS", "Supabase"],
-    live: "https://ayushverma.netlify.app/",
-    github: "https://github.com/AyushVerma87654/EasyKart-Frontend",
-    image: "/easykart.png",
+      "Admin dashboard for managing portfolio content with JWT authentication, refresh tokens, protected routes, and media upload system.",
+    tech: [
+      "React.js",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "JWT",
+      "REST API",
+    ],
+    live: "https://your-cms-admin-portal.netlify.app",
+    github: "https://github.com/AyushVerma87654/Portfolio-CMS-Admin",
+    image: "/cms-admin.png",
   },
   {
-    title: "EasyKart - Backend",
+    title: "Portfolio CMS - Frontend",
     description:
-      "Backend of the e-commerce app using AdonisJs with JWT auth, PostgreSQL database, and Stripe payment integration.",
-    tech: ["AdonisJs", "PostgreSQL", "Supabase", "Stripe"],
-    github: "https://github.com/AyushVerma87654/EasyKart-Backend",
+      "Frontend of a custom CMS-powered portfolio with dynamic SEO-friendly content integration, responsive UI, and secure contact workflow.",
+    tech: [
+      "React.js",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "REST API",
+    ],
+    live: "https://your-cms-frontend.netlify.app",
+    github: "https://github.com/AyushVerma87654/Portfolio-CMS-Frontend",
+    image: "/cms-frontend.png",
+  },
+  {
+    title: "Portfolio CMS - Backend",
+    description:
+      "Backend for the portfolio CMS with REST APIs for About, Skills, Projects, Blogs, Experience, Testimonials, and Services. Includes JWT-based auth, refresh tokens, and media handling.",
+    tech: ["Node.js", "Express.js", "PostgreSQL", "JWT", "REST API"],
+    github: "https://github.com/AyushVerma87654/Portfolio-CMS-Backend",
     image: "/backendplaceholder.svg",
   },
-  {
-    title: "Online Learning Platform - Frontend",
-    description:
-      "Frontend of a full-stack e-learning system with role-based access, course creation, quizzes, subscription payments, and admin dashboard.",
-    tech: ["React.js", "Redux Toolkit", "Tailwind CSS", "Supabase"],
-    live: "https://online-learning-platform-frontend.netlify.app/",
-    github: "https://github.com/AyushVerma87654/Online-Learning-Frontend",
-    image: "/online-learning.png",
-  },
-  {
-    title: "Online Learning Platform - Backend",
-    description:
-      "Backend of the e-learning platform using Express.js and Supabase for authentication, database management, and payment handling.",
-    tech: ["Express.js", "Supabase", "Stripe", "PostgreSQL"],
-    github: "https://github.com/AyushVerma87654/Online-Learning-Backend",
-    image: "/backendplaceholder.svg",
-  },
+
+  // Knowledge Vault
   {
     title: "Knowledge Vault - Frontend",
     description:
@@ -50,6 +60,65 @@ export const projects = [
     github: "https://github.com/AyushVerma87654/Knowledge-Vault-Backend",
     image: "/backendplaceholder.svg",
   },
+
+  // EasyKart
+  {
+    title: "EasyKart - Frontend",
+    description:
+      "Frontend of a complete e-commerce application with authentication, product catalog, shopping cart, and Stripe-based payments.",
+    tech: ["React.js", "Redux Toolkit", "Tailwind CSS", "Supabase"],
+    live: "https://ayushverma.netlify.app/",
+    github: "https://github.com/AyushVerma87654/EasyKart-Frontend",
+    image: "/easykart.png",
+  },
+  {
+    title: "EasyKart - Backend",
+    description:
+      "Backend of the e-commerce app using AdonisJs with JWT auth, PostgreSQL database, and Stripe payment integration.",
+    tech: ["AdonisJs", "PostgreSQL", "Supabase", "Stripe"],
+    github: "https://github.com/AyushVerma87654/EasyKart-Backend",
+    image: "/backendplaceholder.svg",
+  },
+
+  // Online Learning Platform
+  {
+    title: "Online Learning Platform - Frontend",
+    description:
+      "Frontend of a full-stack e-learning system with role-based access, course creation, quizzes, subscription payments, and admin dashboard.",
+    tech: ["React.js", "Redux Toolkit", "Tailwind CSS", "Supabase"],
+    live: "https://online-learning-platform-frontend.netlify.app/",
+    github: "https://github.com/AyushVerma87654/Online-Learning-Frontend",
+    image: "/online-learning.png",
+  },
+  {
+    title: "Online Learning Platform - Backend",
+    description:
+      "Backend of the e-learning platform using Express.js and Supabase for authentication, database management, and payment handling.",
+    tech: ["Express.js", "Supabase", "Stripe", "PostgreSQL"],
+    github: "https://github.com/AyushVerma87654/Online-Learning-Backend",
+    image: "/backendplaceholder.svg",
+  },
+
+  // API Testing Tool
+  {
+    title: "API Testing Tool - Frontend",
+    description:
+      "Frontend of a full-stack API Testing Tool with request form, history, collections, and response viewer.",
+    tech: ["React.js", "Tailwind CSS", "Supabase", "Axios"],
+    live: "https://your-api-tool-frontend.netlify.app",
+    github: "https://github.com/AyushVerma87654/API-Testing-Frontend",
+    image: "/api-tool.png",
+  },
+  {
+    title: "API Testing Tool - Backend",
+    description:
+      "Backend for API Testing Tool with proxy endpoints, user authentication, request history, and collections storage.",
+    tech: ["Node.js", "Express.js", "Supabase", "JWT"],
+    github: "https://github.com/AyushVerma87654/API-Testing-Backend",
+    image: "/backendplaceholder.svg",
+  },
+
+  // Smaller / Fun Projects
   {
     title: "Ludo Game",
     description: "Interactive multiplayer Ludo supporting 2–4 players.",
